@@ -1,4 +1,4 @@
-# Postgres Users DB
+# Mongo Configs DB
 
 A really simple mongo db database, the idea is to store here all the apis configs and make them consume the parameters from this db to obtain a dynamic and parametric system that doesn't need to be reloaded to change its behavior
 
