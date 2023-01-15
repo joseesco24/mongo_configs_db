@@ -8,24 +8,6 @@ A really simple mongo db database, the idea is to store here all the apis config
 
 **Note:** Before running any of these commands be sure that your **CWD** is **mongo_configs_db** directory.
 
-### Docker Build Image Using Compose File
-
-```bash
-docker-compose -f compose.project.yaml build
-```
-
-### Docker Start Service Using Compose File
-
-```bash
-docker-compose -f compose.project.yaml up
-```
-
-### Docker Stop Service Using Compose File
-
-```bash
-docker-compose -f compose.project.yaml down
-```
-
 ### Docker Login Into GitHub Container Registry
 
 ```bash
@@ -36,6 +18,18 @@ docker login -u joseesco24 -p < authentication token > ghcr.io
 
 ```bash
 docker push ghcr.io/joseesco24/mongo_configs_db:latest
+```
+
+<br/>
+
+## Docker Compose Project Commands
+
+**Note:** Before running any of these commands be sure that your **CWD** is **mongo_configs_db** directory.
+
+### Docker Compose Build Image Using Compose File
+
+```bash
+docker-compose -f compose.build.yaml build
 ```
 
 <br/>

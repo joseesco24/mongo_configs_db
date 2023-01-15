@@ -1,0 +1,8 @@
+version: "3.8"
+
+services:
+  mongo_configs_db:
+    image: ghcr.io/joseesco24/mongo_configs_db:latest
+    build:
+      dockerfile: Dockerfile
+      context: .
