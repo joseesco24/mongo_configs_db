@@ -1,6 +1,8 @@
 # ---------------------------------------------------------------------------------------------------------------------
-# ** info: declaration of the image base version
+# ** stage 1: production image
 # ---------------------------------------------------------------------------------------------------------------------
+
+# ** info: declaration of the image base version
 FROM mongo:6.0.3
 
 # ** info: declaration of the image env variables
