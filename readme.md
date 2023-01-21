@@ -14,6 +14,12 @@ A really simple mongo db database, the idea is to store here all the apis config
 docker login -u joseesco24 -p < authentication token > ghcr.io
 ```
 
+### Docker Access To The Container Terminal
+
+```bash
+docker exec -it mongo_configs_db /bin/bash
+```
+
 ### Docker Push The Image To GitHub Container Registry
 
 ```bash
